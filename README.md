@@ -1,4 +1,4 @@
-![randompantry](./randompantry.png)
+![randompantry](./randompantry.webp)
 
 
 # Random Pantry
