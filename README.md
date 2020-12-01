@@ -1,60 +1,39 @@
 ![randompantry](./randompantry.webp)
 
-
 # Random Pantry
-
-[![website](https://img.shields.io/website?url=https%3A%2F%2Frandompantry.herokuapp.com)](https://randompantry.herokuapp.com)
-[![last-commit](https://img.shields.io/github/last-commit/irkules/randompantry)](https://github.com/irkaal/randompantry/commits/master)
 
 Random Pantry is a recipe recommender system that uses machine learning algorithms. It is designed to give you recipes that you will enjoy!
 
+## Archived
 
-## Usage
+randompantry will no longer be maintained. [randompantry3](https://github.com/irkaal/randompantry3) is a complete rewrite of randompantry in Python and TypeScript.
 
-### Rating a Recipe
+## Rating a Recipe
 
 | Navigate to a recipe page through the popup window |  "Rate This Recipe!" is located after Tags |
 | :-------------------------: | :-------------------------: |
 | ![randompantry](./media/modal.png) | ![randompantry](./media/rate.png) |
 
-### Getting Recommendations
+## Getting Recommendations
 
 | Recommendations are refreshed automatically whenever a new recipe is rated |
 | :-------------------------: |
 | ![randompantry](./media/recommendations.png) |
 
-
-### Getting Similar Recipes
+## Getting Similar Recipes
 
 | Navigate to a recipe page | Similar Recipes can be found at the bottom |
 | :------: | :----: |
 | ![randompantry](./media/recipe-detail.png) | ![randompantry](./media/similar-recipes.png) |
 
-
-
-## Technologies
-### Languages & Frameworks
-* [Python](https://www.python.org)
-* [Django](https://www.djangoproject.com/) - Web Framework
-
-### Machine Learning
-* [scikit-learn](https://scikit-learn.org) - Truncated SVD, K-Nearest Neighbours, and Multilayer Perceptron (Artificial Neural Network)
-* [pandas](https://pandas.pydata.org/)
-* [SurPRISE](http://surpriselib.com/) - Matrix Factorization algorithm (SVD)
-
-### Database
-* [PostgreSQL](https://www.postgresql.org/)
-
 ## Data
 * [Food.com Recipes and Interactions](https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions) - Kaggle
 * [Food.](https://www.food.com/) - Recipe Images
-
 
 ## Contributors
 | [![irkules](https://avatars0.githubusercontent.com/u/55762386?s=400&v=4)](https://github.com/irkules) | [![deonnem](https://avatars3.githubusercontent.com/u/42830094?s=460&v=4)](https://github.com/deonnem) | [![irkaal](https://avatars0.githubusercontent.com/u/45277297?s=460&u=655fe8d05bb92cf2bad01027b304227e724a154b&v=4)](https://github.com/irkaal) |
 | :-: | :-: | :-: |
 | [`irkules`](http://github.com/irkules) | [`deonnem`](http://github.com/deonnem) | [`irkaal`](http://github.com/irkaal) |
-
 
 ## Changes
 - Version 1.0
@@ -67,7 +46,6 @@ Random Pantry is a recipe recommender system that uses machine learning algorith
 - Latest
     - Disabled Redis and Celery to allow for hosting on Heroku Free Dyno.
     - Removed RecipeNet
-
 
 ## Reference Papers
 - Francesco Ricci, Lior Rokach, Bracha Shapira, and Paul B. Kantor. Recommender Systems Handbook. 1st edition, 2010.
